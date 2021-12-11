@@ -10,7 +10,7 @@
  *****************************************************************************/
 /**
  * @file stats.h 
- * @brief All of the function prototypes/declarations for the stats.c file
+ * @brief the prototypes/declarations of all statistical and printing functions.
  *
  * <Add Extended Description Here>
  *
@@ -40,7 +40,7 @@ void print_statistics( float mean, float median, float maximum, float minimum );
 /**
  * @brief print_array
  *
- * A function that prints an array.
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
  * @param data    unsigned char pointer to an n-element array
  * @param length  unsigned integer as the size of the array
@@ -54,7 +54,7 @@ void print_array(unsigned char * data, int length);
 /**
  * @brief find_mean
  *
- * A function that finds the mean of an arrray.
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
  * @param data    unsigned char pointer to an n-element array
  * @param length  unsigned integer as the size of the array
@@ -65,10 +65,11 @@ void print_array(unsigned char * data, int length);
 float find_mean(unsigned char * data, int length);
 
 
+
 /**
  * @brief find_median
  *
- * A function that finds the median of an array.
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
  * @param data    unsigned char pointer to an n-element array
  * @param length  unsigned integer as the size of the array
@@ -82,7 +83,7 @@ float find_median(unsigned char * data, int length);
 /**
  * @brief find_maximum
  *
- * A function that finds the maximum of an array.
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
  * @param data    unsigned char pointer to an n-element array
  * @param length  unsigned integer as the size of the array
@@ -96,7 +97,7 @@ unsigned char find_maximum(unsigned char * data, int length);
 /**
  * @brief find_minimum
  *
- * A function that finds the minimum of an array.
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
  * @param data    unsigned char pointer to an n-element array
  * @param length  unsigned integer as the size of the array
@@ -110,7 +111,7 @@ unsigned char find_minimum(unsigned char * data, int length);
 /**
  * @brief sort_array
  *
- * A function that sorts an array from largest to smallest value.
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
  * @param data    unsigned char pointer to an n-element array
  * @param length  unsigned integer as the size of the array
